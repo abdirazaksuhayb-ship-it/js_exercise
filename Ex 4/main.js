@@ -20,9 +20,9 @@ console.log(addExpression(0, 0));     // 0
 console.log(addExpression(-2, -3));   // -5
 
 
-// // 3. Arrow Function
-// const addArrow = (a, b) => a + b;
+// 3. Arrow Function
+const addArrow = (a, b) => a + b;
 
-// console.log(addArrow(10, 20));    // 30
-// console.log(addArrow(-1, 1));     // 0
-// console.log(addArrow(3.3, 1.1));  // 4.4 (actually 4.3999999999999995 due to floating point)
+console.log(addArrow(10, 20));    // 30
+console.log(addArrow(-1, 1));     // 0
+console.log(addArrow(3.3, 1.1));  // 4.4 (actually 4.3999999999999995 due to floating point)
